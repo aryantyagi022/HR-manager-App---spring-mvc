@@ -1,0 +1,70 @@
+/* Defining variables */
+:root {
+  --primary-color:#97203C;
+  --secondary-color: rgb(140,190,214);
+}
+
+a {
+  margin-left: 169px;
+}
+
+.addBtn{
+	float:right;
+}
+.dBtn{
+	float:right;
+}
+.file-bg {
+	
+  background-color: rgb(67 62 69 / 40%);
+}
+body {
+  background-color: rgba(105,105,105, 0.404);
+}
+.center {
+  font-family: "Hind", sans-serif;
+  padding: 4px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: var(--primary-color);
+  margin-bottom: 25px;
+}
+h1,
+h4 {
+  color: var(--secondary-color);
+}
+
+.table-heading {
+  background-color: rgb(169, 238, 66);
+  color: var(--secondary-color);
+}
+.edit1{
+	margin-right:-10px;
+}
+.edit{
+	margin-right:-150px;
+	margin-left:2px;
+}
+
+.signup {
+  float: right;
+  margin-right: 10px;
+}
+
+.login{
+	float:right;
+}
+.welcome{
+	margin-left:78%;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  height:4%;
+  width: 100%;
+  background-color: var(--primary-color);
+}
